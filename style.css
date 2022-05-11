@@ -1,0 +1,30 @@
+body{
+    background-color: plum;
+}
+#score{
+    font: bolder;
+    font-size: larger;
+    float: left;
+    margin-left: 100px;
+}
+#timer{
+    font: bolder;
+    font-size: larger;
+    float: right;
+    margin-right: 100px;
+}
+h1{
+    color: black;
+    background-color: cornsilk;
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 20px;
+    animation-iteration-count: infinite;
+}
